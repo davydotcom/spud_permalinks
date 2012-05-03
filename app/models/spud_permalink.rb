@@ -6,4 +6,6 @@ class SpudPermalink < ActiveRecord::Base
 	validates :attachment_id, :presence => true
 
 	scope :site, lambda {|sid| where(:site_id => sid)}
+
+	attr_accessible :url_name,:attachment_type,:attachment_id,:site_id
 end
