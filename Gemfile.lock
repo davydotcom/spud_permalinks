@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    spud_permalinks (0.0.3)
+    spud_permalinks (0.0.4)
       rails (~> 3.2.2)
 
 GEM
@@ -85,7 +85,7 @@ GEM
     treetop (1.4.10)
       polyglot
       polyglot (>= 0.3.1)
-    tzinfo (0.3.32)
+    tzinfo (0.3.33)
 
 PLATFORMS
   ruby
