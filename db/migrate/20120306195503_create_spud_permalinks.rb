@@ -6,6 +6,6 @@ class CreateSpudPermalinks < ActiveRecord::Migration
       t.integer :attachment_id
       t.timestamps
     end
-    add_index :spud_permalinks,[:attachment_type,:attachment_id]
+    add_index :spud_permalinks,[:attachment_type,:attachment_id],:name => "idx_permalink_attachment"
   end
 end
