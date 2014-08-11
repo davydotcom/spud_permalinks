@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    spud_permalinks (1.0.0.rc1)
+    spud_permalinks (1.0.0)
       rails (>= 3.2.2)
 
 GEM
@@ -31,7 +31,7 @@ GEM
       multi_json (~> 1.3)
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
-    arel (4.0.1)
+    arel (4.0.2)
     atomic (1.1.14)
     builder (3.1.4)
     database_cleaner (1.0.0.RC1)
@@ -54,7 +54,7 @@ GEM
       metaclass (~> 0.0.1)
     multi_json (1.8.2)
     mysql2 (0.3.14)
-    polyglot (0.3.3)
+    polyglot (0.3.5)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -96,7 +96,7 @@ GEM
       multi_json (~> 1.0)
       simplecov-html (~> 0.5.3)
     simplecov-html (0.5.3)
-    sprockets (2.10.1)
+    sprockets (2.12.1)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
